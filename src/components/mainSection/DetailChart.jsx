@@ -7,7 +7,7 @@ const DetailChart = ({ title }) => {
       <div className="pie-data">
         <div className="pie-options">
           <h1>{title}</h1>
-          <div>
+          <div className="flexbox">
             <div className="flex">
               <div>
                 <p className="box grey"></p>

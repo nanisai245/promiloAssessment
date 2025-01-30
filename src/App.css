@@ -939,6 +939,7 @@ section {
 @media screen and (max-width: 710px) {
   main {
     flex-direction: column;
+    padding: 20px 10px;
   }
 
   aside {
@@ -963,5 +964,145 @@ section {
 
   .nav-pop {
     width: 100%;
+  }
+
+  .pending-card h3 {
+    font-weight: 500;
+  }
+
+  .inner-card {
+    margin-right: 10px;
+  }
+
+  .inner-top p {
+    font-size: 13px;
+  }
+
+  .inner-top h4 {
+    font-size: 15px;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .single-used {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .single-used h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .single-used p {
+    font-size: 15px;
+    margin: 8px 0;
+    color: rgb(129, 131, 131);
+  }
+
+  .single-used a {
+    font-size: 14px;
+  }
+
+  .section-card h2 {
+    font-size: 23px;
+    font-weight: 500;
+  }
+
+  .select {
+    width: 20%;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .select2 {
+    width: 35%;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .custom-right p {
+    padding: 6px 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 209, 209);
+    cursor: pointer;
+    color: rgb(88, 87, 87);
+    font-size: 12px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-right p span {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+
+  .order-card {
+    background-color: rgb(240, 230, 240);
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
+  .pie-options h1 {
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    width: max-content;
+    margin-bottom: 20px;
+  }
+  .pie-data {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin: 4px 10px;
+  }
+
+  .pie-options {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pie-diagram {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .social-sites {
+    display: flex;
+    gap: 15px;
+    color: #a7a6a6;
+  }
+
+  .social-sites p {
+    border: 1px solid #b8b5b5;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .footer p {
+    color: #a7a6a6;
   }
 }
